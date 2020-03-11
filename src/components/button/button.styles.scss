@@ -1,0 +1,15 @@
+.button {
+  padding: 2.5rem;
+  font-size: 1.5rem;
+  border: none;
+  font-family: inherit;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #1990c6;
+    color: white;
+    transition: all .2s;
+  }
+}
