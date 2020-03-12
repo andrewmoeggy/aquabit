@@ -3,15 +3,33 @@ import './homepage.styles.scss';
 import homeHero from '../../assests/homeHero.jpg'
 import Hero from '../../components/hero/hero.component';
 
+const AboutTest = () => {
+  return (
+    <div className="">about</div>
+  )
+}
+
+const ShopTest = () => {
+  return (
+    <div className="">Shop</div>
+  )
+}
+
+const ThirdPage = () => {
+  return (
+    <div className="">ThirdPage</div>
+  )
+}
+
 const Home = () => {
   return (
     <div class='homepage'>
       <header>
         <nav >
           <ul>
-            <li>hey</li>
-            <li>thing</li>
-            <li>sbout</li>
+            <li>about</li>
+            <li>shop</li>
+            <li>third</li>
           </ul>
         </nav>
       </header>
