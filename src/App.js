@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import { Switch, Route } from 'react-router-dom';
 import Home from './pages/home/homepage.component';
 
 
@@ -25,8 +25,16 @@ const ThirdPage = () => {
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Switch>
+        <Route path='/about' component={AboutTest} />
+        <Route path='/shop' component={ShopTest} />
+        <Route path='/third' component={ThirdPage} />
+
+        <Route path='/' component={Home} />
+      </Switch>
+
     </div>
+
   );
 }
 

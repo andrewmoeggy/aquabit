@@ -1,25 +1,10 @@
 import React from 'react';
+import { withRouter, Link } from 'react-router-dom';
 import './homepage.styles.scss';
 import homeHero from '../../assests/homeHero.jpg'
 import Hero from '../../components/hero/hero.component';
 
-const AboutTest = () => {
-  return (
-    <div className="">about</div>
-  )
-}
 
-const ShopTest = () => {
-  return (
-    <div className="">Shop</div>
-  )
-}
-
-const ThirdPage = () => {
-  return (
-    <div className="">ThirdPage</div>
-  )
-}
 
 const Home = () => {
   return (
@@ -27,9 +12,11 @@ const Home = () => {
       <header>
         <nav >
           <ul>
-            <li>about</li>
-            <li>shop</li>
-            <li>third</li>
+            <Link to='/about'>About</Link>
+            <Link to='/shop'>Shop</Link>
+            <Link to='/third'>Third</Link>
+            <Link to='/'>Home</Link>
+
           </ul>
         </nav>
       </header>
@@ -38,4 +25,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default withRouter(Home);
