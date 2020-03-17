@@ -1,0 +1,21 @@
+.collection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 20%;
+
+  &--name {
+    align-self: flex-start;
+  }
+
+  &--price {
+    align-self: flex-start;
+  }
+}
+
+.item-image {
+  width: 100%;
+  height: 95%;
+  
+}
