@@ -8,7 +8,7 @@ import Hero from '../../components/hero/hero.component';
 
 const Home = () => {
   return (
-    <div class='homepage'>
+    <div className='homepage'>
       <header>
         <nav >
           <ul>

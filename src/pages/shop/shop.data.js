@@ -6,57 +6,51 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+        name: 'HP 250',
+        imageUrl: 'https://i.ibb.co/dmW2v6r/laptop-1.jpg',
         price: 25
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+        name: 'Mac 2000',
+        imageUrl: 'https://i.ibb.co/StbzGTP/laptop-2.jpg',
         price: 18
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+        name: 'itsOver 9000',
+        imageUrl: 'https://i.ibb.co/BfnwMQG/laptop-3.jpg',
         price: 35
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+        name: 'PC # 10',
+        imageUrl: 'https://i.ibb.co/7KyDvMk/laptop-4.jpg',
         price: 25
       },
       {
         id: 5,
         name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
+        imageUrl: 'https://i.ibb.co/sFdbpb0/laptop-5.jpg',
         price: 18
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+        name: 'The ENIAC',
+        imageUrl: 'https://i.ibb.co/hg9fsf4/laptop-6.jpg',
         price: 14
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
+        name: 'MacBook Pro',
+        imageUrl: 'https://i.ibb.co/HP6fYwr/laptop-7.jpg',
         price: 18
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+        name: 'Lenovo 12',
+        imageUrl: 'https://i.ibb.co/wC7vXpv/laptop-8.jpg',
         price: 14
-      },
-      {
-        id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
       }
     ]
   },
@@ -67,49 +61,49 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Adidas NMD',
+        name: 'Dell Opti',
         imageUrl: 'https://i.ibb.co/b7s4012/desktop-1.jpg',
         price: 220
       },
       {
         id: 2,
-        name: 'Adidas Yeezy',
+        name: 'Acer Aspire',
         imageUrl: 'https://i.ibb.co/HFfkrYS/desktop-2.jpg',
         price: 280
       },
       {
         id: 3,
-        name: 'Black Converse',
+        name: 'Hp EliteDesk',
         imageUrl: 'https://i.ibb.co/MMVkYNH/desktop-3.jpg',
         price: 110
       },
       {
         id: 4,
-        name: 'Nike White AirForce',
+        name: 'Acer Desktop',
         imageUrl: 'https://i.ibb.co/y41gc5K/desktop-4.jpg',
         price: 160
       },
       {
         id: 5,
-        name: 'Nike Red High Tops',
+        name: 'Apple iMac',
         imageUrl: 'https://i.ibb.co/PYgGJXV/desktop-5.jpg',
         price: 160
       },
       {
         id: 6,
-        name: 'Nike Brown High Tops',
+        name: 'Asus 940',
         imageUrl: 'https://i.ibb.co/8cbBQZY/desktop-6.jpg',
         price: 160
       },
       {
         id: 7,
-        name: 'Air Jordan Limited',
+        name: 'Toshiba Desktop',
         imageUrl: 'https://i.ibb.co/pwBXSGb/desktop-7.jpg',
         price: 190
       },
       {
         id: 8,
-        name: 'Timberlands',
+        name: 'UltraFax Fax 9000',
         imageUrl: 'https://i.ibb.co/wMSSwRz/desktop-8.jpg',
         price: 200
       }
@@ -122,32 +116,32 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        name: 'iWatch',
+        imageUrl: 'https://i.ibb.co/tMJH5cd/watch-1.jpg',
         price: 125
       },
       {
         id: 2,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        name: 'Rolex 12',
+        imageUrl: 'https://i.ibb.co/3p2KPcb/watch-2.jpg',
         price: 90
       },
       {
         id: 3,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        name: 'Invicta',
+        imageUrl: 'https://i.ibb.co/2K65zrX/watch-3.jpg',
         price: 90
       },
       {
         id: 4,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        name: 'Citizen Eco',
+        imageUrl: 'https://i.ibb.co/0qJXvc4/watch-4.jpg',
         price: 165
       },
       {
         id: 5,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+        name: 'GV2 Gevril',
+        imageUrl: 'https://i.ibb.co/L1r0Z00/watch-5.jpg',
         price: 185
       }
     ]
@@ -159,44 +153,44 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: 'Samsung Q70R',
+        imageUrl: 'https://i.ibb.co/KNxfgh6/televison-1.jpg',
         price: 25
       },
       {
         id: 2,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        name: 'LG OLED',
+        imageUrl: 'https://i.ibb.co/zX9WtF3/televison-2.jpg',
         price: 20
       },
       {
         id: 3,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        name: 'VIZIO 241',
+        imageUrl: 'https://i.ibb.co/56Xss67/televison-3.jpg',
         price: 80
       },
       {
         id: 4,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        name: 'Sony IO',
+        imageUrl: 'https://i.ibb.co/B4Zcqpx/televison-4.jpg',
         price: 80
       },
       {
         id: 5,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        name: 'Apple TV',
+        imageUrl: 'https://i.ibb.co/dp9Kn21/televison-5.jpg',
         price: 45
       },
       {
         id: 6,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+        name: 'Samsung 94Q',
+        imageUrl: 'https://i.ibb.co/f8n70KX/televison-6.jpg',
         price: 135
       },
       {
         id: 7,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        name: 'Philips R29',
+        imageUrl: 'https://i.ibb.co/mzpm8ZB/televison-7.jpg',
         price: 20
       }
     ]
@@ -208,38 +202,38 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        name: 'iPhone A',
+        imageUrl: 'https://i.ibb.co/6svJLG3/phone-1.jpg',
         price: 325
       },
       {
         id: 2,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        name: 'iPhone B',
+        imageUrl: 'https://i.ibb.co/JRywBjG/phone-2.jpg',
         price: 20
       },
       {
         id: 3,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        name: 'iPhone C',
+        imageUrl: 'https://i.ibb.co/wc3C8DD/phone-3.jpg',
         price: 25
       },
       {
         id: 4,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        name: 'iPhone D',
+        imageUrl: 'https://i.ibb.co/wL2fBMj/phone-4.jpg',
         price: 25
       },
       {
         id: 5,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
+        name: 'iPhone E',
+        imageUrl: 'https://i.ibb.co/rkTNs8w/phone-5.jpg',
         price: 40
       },
       {
         id: 6,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        name: 'iPhone F',
+        imageUrl: 'https://i.ibb.co/gdhsHbP/phone-6.jpg',
         price: 25
       }
     ]
