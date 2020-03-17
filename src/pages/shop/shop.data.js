@@ -12,25 +12,25 @@ const SHOP_DATA = [
       },
       {
         id: 2,
-        name: 'Mac 2000',
+        name: 'Mac 250',
         imageUrl: 'https://i.ibb.co/StbzGTP/laptop-2.jpg',
         price: 18
       },
       {
         id: 3,
-        name: 'itsOver 9000',
+        name: 'Lenovo R9sV',
         imageUrl: 'https://i.ibb.co/BfnwMQG/laptop-3.jpg',
         price: 35
       },
       {
         id: 4,
-        name: 'PC # 10',
+        name: 'Toshiba U89',
         imageUrl: 'https://i.ibb.co/7KyDvMk/laptop-4.jpg',
         price: 25
       },
       {
         id: 5,
-        name: 'Green Beanie',
+        name: 'HP 98VV',
         imageUrl: 'https://i.ibb.co/sFdbpb0/laptop-5.jpg',
         price: 18
       },
