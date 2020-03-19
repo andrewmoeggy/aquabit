@@ -9,8 +9,10 @@ const CollectionItem = ({ imageUrl, name, price }) => {
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }} />
-      <h2 className='collection-item--name'>{name}</h2>
-      <h2 className='collection-item--price'>{price}</h2>
+      <div className="collection-item--info">
+        <h2 className='collection-item--name'>{name}</h2>
+        <h2 className='collection-item--price'>${price}</h2>
+      </div>
     </div>
   );
 }
