@@ -44,19 +44,39 @@
     }
     // --- May use later ---
     &-submit {  
+      width: 140px;
       padding: .7rem 1rem;
       background-color: #ffffff;
       outline: none;
       border-radius: 3px;
       border: 1px solid #717171;
-      transition: .3s all;
+      transition: .2s all;
       cursor: pointer;
 
       &:hover {
-        border: 1px solid aqua;
-        background-color: aqua;
-        color: #444;
+        background-color: #111;
+        border: 1px solid #111;
+        color: white;
       }
+
+      &[value='Sign in with Google'] {
+        border: 1px solid #4285F4;
+        color: #4285F4;
+        transition: .2s all;
+        margin-left: .5rem;
+
+        &:hover {
+          color: white;
+          border: 1px solid #4285F4;
+          background-color: #4285F4;
+        }
+      }
+    }
+
+    &--button-container {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
     }
   }
 }
