@@ -3,7 +3,7 @@ import './button.styles.scss';
 
 const Button = ({ buttonText }) => {
   return (
-    <button className='button'>{buttonText}</button>
+    <button className='button'> {buttonText}</button >
   );
 }
 

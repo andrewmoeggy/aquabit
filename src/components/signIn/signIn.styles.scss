@@ -42,8 +42,8 @@
         margin-bottom: 2rem;
       }
     }
-
-    &-submit {
+    // --- May use later ---
+    &-submit {  
       padding: .7rem 1rem;
       background-color: #ffffff;
       outline: none;
@@ -53,9 +53,9 @@
       cursor: pointer;
 
       &:hover {
-        border: 1px solid #ffffff;
-        background-color: #717171;
-        color: #ffffff;
+        border: 1px solid aqua;
+        background-color: aqua;
+        color: #444;
       }
     }
   }
