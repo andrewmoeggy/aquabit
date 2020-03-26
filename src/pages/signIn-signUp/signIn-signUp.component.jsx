@@ -10,7 +10,7 @@ class SignInSignUp extends Component {
   }
   render() {
     return (
-      <div>
+      <div className='signin-signup'>
         <SignIn />
       </div>
     );
