@@ -76,7 +76,7 @@ class SignUp extends Component {
           <label className='sign-up-form-label' >Confirm Password</label>
           <input
             className='sign-up-form-input'
-            type="confirmPassword"
+            type="password"
             name="confirmPassword"
             value={confirmPassword}
             label='Confirm Password'
