@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './signIn-signUp.styles.scss';
 
 import SignIn from '../../components/signIn/signIn.component';
+import SignUp from '../../components/signup/signUp.component'
 
 class SignInSignUp extends Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class SignInSignUp extends Component {
     return (
       <div className='signin-signup'>
         <SignIn />
+        <SignUp />
       </div>
     );
   }

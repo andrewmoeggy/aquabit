@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import Button from '../../components/button/button.component';
 
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
-import './sign-up.styles.scss';
+import './signUp.styles.scss';
 
 class SignUp extends Component {
   constructor(props) {
@@ -46,37 +45,44 @@ class SignUp extends Component {
     return (
       <div className="sign-up">
         <h2 className="title">I do not have an account</h2>
-        <span>Sign up with your email and password</span>
         <form className='sign-up-form' onSubmit={this.handleSubmit}>
+          <label className='sign-up-form-label' >Display Name</label>
           <input
+            className='sign-up-form-input'
             type="text"
             name="displayName"
             value={displayName}
             label='Display Name'
             onChange={this.handleChange}
           />
+          <label className='sign-up-form-label' >Email</label>
           <input
+            className='sign-up-form-input'
             type="email"
             name="email"
             value={email}
             label='Email'
             onChange={this.handleChange}
           />
+          <label className='sign-up-form-label' >Password</label>
           <input
+            className='sign-up-form-input'
             type="password"
             name="password"
             value={password}
             label='Password'
             onChange={this.handleChange}
           />
+          <label className='sign-up-form-label' >Confirm Password</label>
           <input
+            className='sign-up-form-input'
             type="confirmPassword"
             name="confirmPassword"
             value={confirmPassword}
             label='Confirm Password'
             onChange={this.handleChange}
           />
-          <Button type='submit'>Sign Up</Button>
+          <input className='sign-up-form-submit' type='submit' value="Submit" />
         </form>
       </div>
     );
